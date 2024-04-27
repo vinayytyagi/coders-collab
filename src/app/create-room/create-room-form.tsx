@@ -59,9 +59,9 @@ export function CreateRoomForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input {...field} placeholder="Coders Clash" />
+                <Input {...field} placeholder="Coder Squad" />
               </FormControl>
-              <FormDescription>This is your public room name.</FormDescription>
+              <FormDescription>This is your public room name</FormDescription>
               <FormMessage />
             </FormItem>
           )}
@@ -96,7 +96,7 @@ export function CreateRoomForm() {
               <FormControl>
                 <Input
                   {...field}
-                  placeholder="https://github.com/vinayytyagi"
+                  placeholder="https://github.com/username"
                 />
               </FormControl>
               <FormDescription>
